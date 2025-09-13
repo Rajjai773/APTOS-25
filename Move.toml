@@ -1,0 +1,15 @@
+[package]
+name = "Decentralised-blog-content-on-IPFS"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xf323aae6767f3a5eb101fffaebb6055322399b153c80fb6dffbb1e02f0d1b6fe"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
